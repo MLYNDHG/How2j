@@ -4,6 +4,16 @@ import J2SE.Interface.Moral;
 
 public class Hero {
     // 面向对象系列教材 （二）- JAVA类的属性
+    public int id;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String name;
     public float hp;
     public float armor;
